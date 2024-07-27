@@ -20,7 +20,7 @@ cargo b
 
 To run the stencil code, use the following command.
 ```
-cargo run -- --x <x player agent> --o <o player agent> --layout <wall layout>
+cargo run --release -- --x <x player agent> --o <o player agent> --layout <wall layout>
 ```
 
 The available agents are `first`, `random`, `test`, `manual`, and `solution`.
@@ -35,8 +35,9 @@ For example, the following command use the test agent for X, the random agent fo
 cargo run -- --x test --o random --layout 5
 ```
 
+## About Code
 
-
+All my code is in the file "solution.rs", where I developed my algorithm to play the game. Every other file was developed by my instructor to provide the framework to allow the code to work.
 
 
 
