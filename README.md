@@ -9,7 +9,9 @@ a row, column, or diagonal.
 
 ## Installation instructions
 
-Download the contents of this repo, and store them in a new folder on your computer.
+To download Rust go here: https://polite-okra-217.notion.site/Getting-Started-7628d411278d4706ab457399211deea9
+
+Next, Download the contents of this repo, and store them in a new folder on your computer.
 
 
 
@@ -20,7 +22,7 @@ cargo b
 
 To run the stencil code, use the following command.
 ```
-cargo run --release -- --x <x player agent> --o <o player agent> --layout <wall layout>
+cargo run -- --x <x player agent> --o <o player agent> --layout <wall layout>
 ```
 
 The available agents are `first`, `random`, `test`, `manual`, and `solution`.
@@ -35,9 +37,8 @@ For example, the following command use the test agent for X, the random agent fo
 cargo run -- --x test --o random --layout 5
 ```
 
-## About Code
 
-All my code is in the file "solution.rs", where I developed my algorithm to play the game. Every other file was developed by my instructor to provide the framework to allow the code to work.
+
 
 
 
